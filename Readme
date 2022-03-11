@@ -1,0 +1,22 @@
+Project name : Predicting COVID-19 Hospitalizations using Kalman Filter
+
+Team Members : Nitharsan Sivakanthan , Pooja Bhatia
+
+Problem Statement : We want to predict COVID-19 Hospitalizations in Washington State using Kalman filter on the basis of various predictors (positive cases, vaccinations, Age, Cases per county). The Kalman filter is typically used for time series data. We plan to use daily/weekly COVID-19 data to predict hospitalizations.
+In research papers we found, there was promise in using the Kalman filter for time series forecasting to determine trends in the COVID-19 pandemic. These papers also included a possibility in studying the association of vaccinated people and number of daily cases for predictions, which is exactly what we are planning to use.
+
+Github repository details : 
+  Cumulative_Cases.csv - report containing number of cases daily and cumulative
+  Cumulative__Hospitalizations.csv - report containing number of hospitlizations daily cumulative
+  Cumulative__Vaccinations.csv - report containing numberof vaccinations daily cumulative 
+  Cumulative__Deaths.csv - report containing number of deaths daily cumulative
+  Kalman_Filter_Project.ipynb - Python file with the all the steps and code to solve the problem
+
+
+Data Sources: We have used the Department of Heath Washington State, CDC, and Our World In Data as our data sources.
+  https://www.doh.wa.gov/emergencies/covid19/datadashboard
+  https://ourworldindata.org/
+
+Citations :
+  https://www.frontiersin.org/articles/10.3389/fphy.2021.629320/full
+  https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0256227
